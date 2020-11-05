@@ -274,18 +274,16 @@ body {
 .form-container .btn:hover, .open-button:hover {
   opacity: 1;
 }
-.map-responsive{
-  overflow:hidden;
-  padding-bottom:50%;
-  position:relative;
-  height:0;
+
+#location{
+  text-align: center;
+  font: italic;
+  padding: 1%;
 }
-.map-responsive iframe{
-  left:0;
-  top:0;
-  height:50%;
-  width:50%;
-  position:absolute;
+iframe {
+  display: block;
+  margin: 10px auto 10px auto;
+  border: rgb(61, 53, 53);
 }
 
 
